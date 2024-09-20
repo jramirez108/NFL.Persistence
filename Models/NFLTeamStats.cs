@@ -17,5 +17,6 @@ namespace NFL.Persistence.Models
         public float PerGameValue { get; set; }
         public int Rank { get; set; }
         public int TeamId { get; set; }
+        public int Year { get; set; }
     }
 }

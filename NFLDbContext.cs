@@ -67,6 +67,7 @@ namespace NFL.Persistence
                 .OnDelete(DeleteBehavior.Restrict);
             modelBuilder.Entity<NFLGame>().Navigation(x => x.HomeTeam).AutoInclude();
             modelBuilder.Entity<NFLGame>().Navigation(x => x.VisitorTeam).AutoInclude();
+            modelBuilder.Entity<NFLGame>().Navigation(x => x.Week).AutoInclude();
 
             //Others
             modelBuilder.Entity<NFLPlayerStat>().HasKey(x => x.Id);

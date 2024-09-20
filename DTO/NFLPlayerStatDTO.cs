@@ -39,6 +39,8 @@ namespace NFL.Persistence.DTO
         public int FumblesLost { get; set; } = 0;
         public int FumblesForced { get; set; } = 0;
         public int KicksBlocked { get; set; } = 0;
+        public double RushingShare { get; set; } = 0.0;
+        public double ReceivingShare { get; set; } = 0.0;
 
         // Defensive Stats
         public int TotalTackles { get; set; } = 0;
