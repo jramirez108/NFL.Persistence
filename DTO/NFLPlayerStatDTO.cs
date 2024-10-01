@@ -68,5 +68,7 @@ namespace NFL.Persistence.DTO
         public string OpposingTeamCode { get; set; }
         public string OpposingTeamName { get; set; }
         public string PlayersParticipated { get; set; }
+        public string TeamCode { get; set; }
+        public string PlayerName { get; set; }
     }
 }

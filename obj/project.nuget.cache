@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K1BvIcbK0UY=",
+  "dgSpecHash": "+J3Fj97r4mU=",
   "success": true,
-  "projectFilePath": "C:\\Users\\jos31\\source\\repos\\PropFinder\\NFL.Persistence\\NFL.Persistence.csproj",
+  "projectFilePath": "C:\\Users\\jos31\\Documents\\GitHub\\NFL.Persistence\\NFL.Persistence.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jos31\\.nuget\\packages\\bouncycastle.cryptography\\2.3.1\\bouncycastle.cryptography.2.3.1.nupkg.sha512",
     "C:\\Users\\jos31\\.nuget\\packages\\castle.core\\5.1.1\\castle.core.5.1.1.nupkg.sha512",
