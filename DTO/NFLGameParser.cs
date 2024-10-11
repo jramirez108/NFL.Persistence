@@ -15,5 +15,6 @@ namespace NFL.Persistence.DTO
         public DateTime GameDate { get; set; }
         public bool IsWin { get; set; }
         public int OpposingTeamId { get; set; }
+        public string OpposingTeamCode { get; set; }
     }
 }
